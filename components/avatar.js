@@ -11,7 +11,7 @@ export default function Avatar({ author }) {
     <div className="flex items-center">
       <div className="w-12 h-12 relative mr-4">
         <Image
-          src={author.avatar.url}
+          src="https://secure.gravatar.com/avatar/3f03751c9593f306a1a7a320f3f46ae7?s=96&d=mm&r=g"
           layout="fill"
           className="rounded-full"
           alt={name}
